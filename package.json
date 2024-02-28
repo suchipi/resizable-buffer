@@ -1,0 +1,29 @@
+{
+  "name": "@suchipi/resizable-buffer",
+  "version": "1.0.0",
+  "description": "\"Resize\" an ArrayBuffer (via slice or new+copy)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "arraybuffer",
+    "resize"
+  ],
+  "author": "Lily Skye <me@suchipi.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchipi/resizable-buffer.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {}
+}
